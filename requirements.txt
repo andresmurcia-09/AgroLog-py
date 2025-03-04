@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+alembic
+pymysql
+cryptography
+mysql-connector-python
+python-jose
+passlib
+python-multipart
+bcrypt
+python-dotenv
+mangum
+pip
