@@ -6,8 +6,8 @@ alembic
 pymysql
 cryptography
 mysql-connector-python
-python-jose
-passlib
+python-jose[cryptography]
+passlib[bcrypt]
 python-multipart
 bcrypt
 python-dotenv
