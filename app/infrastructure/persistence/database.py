@@ -6,7 +6,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-DATABASE_URL = os.getenv("DATABASE_URL", "mysql+pymysql://root:admin@localhost:3306/agrocontrol")
+DATABASE_URL = os.getenv("DATABASE_URL",
+                         "mysql+pymysql://root:admin@localhost:3306/agrocontrol?allowPublicKeyRetrieval=true&useSSL=false")
 
 engine = create_engine(DATABASE_URL)
 
